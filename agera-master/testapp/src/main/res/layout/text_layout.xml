@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2015 Google Inc. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <data>
+    <variable name="note" type="com.google.android.agera.testapp.Note"/>
+    <variable name="noteGroup" type="com.google.android.agera.testapp.NoteGroup"/>
+    <variable name="click" type="com.google.android.agera.Receiver"/>
+    <variable name="longClick" type="com.google.android.agera.Receiver"/>
+  </data>
+  <TextView
+      android:layout_width="150dp"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="10dp"
+      android:background="#F7E4EE"
+      android:elevation="2dp"
+      android:onClick="@{(view) -> click.accept(note)}"
+      app:onLongClick="@{(view) -> longClick.accept(note)}"
+      android:padding="8dp"
+      android:text="@{noteGroup.name + ' ' + note.note}"
+      android:textSize="20sp"/>
+</layout>

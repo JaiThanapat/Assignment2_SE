@@ -1,0 +1,29 @@
+{
+    "category": "Display information",
+    "description": "Identify a graphic to get further information about the object.",
+    "ignore": false,
+    "images": [
+        "IdentifyGraphics.png"
+    ],
+    "keywords": [
+        "graphics",
+        "identify",
+        "Graphic",
+        "GraphicsOverlay",
+        "MapView",
+        "Point"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/identify-graphics.htm"
+    ],
+    "relevant_apis": [
+        "Graphic",
+        "GraphicsOverlay",
+        "MapView",
+        "Point"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/identify_graphics/IdentifyGraphicsSample.java"
+    ],
+    "title": "Identify graphics"
+}

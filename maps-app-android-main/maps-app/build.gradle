@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+
+    defaultConfig {
+        applicationId "com.esri.arcgisruntime.opensourceapps.mapsapp"
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        versionCode 1
+        versionName '1.0.11'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+
+    android {
+        compileOptions {
+            sourceCompatibility 1.8
+            targetCompatibility 1.8
+        }
+    }
+}
+
+dependencies {
+    // android libraries
+    implementation "androidx.legacy:legacy-support-v4:$rootProject.legacyLibraryVersion"
+    implementation "androidx.appcompat:appcompat:$rootProject.appcompatLibraryVersion"
+    implementation "androidx.cardview:cardview:$rootProject.cardviewLibraryVersion"
+    implementation "com.google.android.material:material:$rootProject.materialLibraryVersion"
+
+    // ArcGIS Android API
+    implementation "com.esri.arcgisruntime:arcgis-android:$rootProject.runtimeVersion"
+    // square libs
+    implementation "com.jakewharton:butterknife:$rootProject.butterknifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterknifeVersion"
+
+    // Android Testing Support Library's runner and rules
+    androidTestImplementation ("androidx.test:runner:$rootProject.runnerVersion"){
+        exclude module: 'support-annotations'
+    }
+    androidTestImplementation ("androidx.test:rules:$rootProject.runnerVersion"){
+        exclude module: 'support-annotations'
+    }
+
+    // Robotium dependencies
+    androidTestImplementation "com.jayway.android.robotium:robotium-solo:$rootProject.robotiumVersion"
+
+    implementation group: 'org.apache.httpcomponents' , name: 'httpclient-android' , version: "$rootProject.httpcomponentsVersion"
+}

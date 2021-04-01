@@ -1,0 +1,40 @@
+{
+    "category": "KML",
+    "description": "Construct a KML document and save it as a KMZ file.",
+    "ignore": false,
+    "images": [
+        "CreateAndSaveKMLFile.png"
+    ],
+    "keywords": [
+        "KML",
+        "KMZ",
+        "Keyhole",
+        "OGC",
+        "GeometryEngine.Project",
+        "KmlDataset",
+        "KmlDocument",
+        "KmlGeometry",
+        "KmlLayer",
+        "KmlPlacemark",
+        "KmlStyle",
+        "SketchEditor"
+    ],
+    "redirect_from": "",
+    "relevant_apis": [
+        "GeometryEngine.Project",
+        "KmlDataset",
+        "KmlDocument",
+        "KmlGeometry",
+        "KmlLayer",
+        "KmlPlacemark",
+        "KmlStyle",
+        "SketchEditor"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/create_and_save_kml_file/CreateAndSaveKMLFileController.java",
+        "src/main/java/com/esri/samples/create_and_save_kml_file/CreateAndSaveKMLFileSample.java",
+        "src/main/java/com/esri/samples/create_and_save_kml_file/ImageURLListCell.java",
+        "src/main/resources/create_and_save_kml_file/main.fxml"
+    ],
+    "title": "Create and save KML file"
+}

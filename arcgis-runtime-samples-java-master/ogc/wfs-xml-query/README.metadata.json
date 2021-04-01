@@ -1,0 +1,30 @@
+{
+    "category": "OGC",
+    "description": "Load a WFS feature table using an XML query.",
+    "ignore": false,
+    "images": [
+        "WfsXmlQuery.png"
+    ],
+    "keywords": [
+        "OGC",
+        "WFS",
+        "XML",
+        "feature",
+        "query",
+        "service",
+        "web",
+        "FeatureLayer",
+        "WfsFeatureTable"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/load-wfs-with-xml-query.htm"
+    ],
+    "relevant_apis": [
+        "FeatureLayer",
+        "WfsFeatureTable"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/wfs_xml_query/WfsXmlQuerySample.java"
+    ],
+    "title": "Load WFS with XML query"
+}

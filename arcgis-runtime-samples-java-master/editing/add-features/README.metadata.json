@@ -1,0 +1,30 @@
+{
+    "category": "Editing",
+    "description": "Add features to a feature layer.",
+    "ignore": false,
+    "images": [
+        "AddFeatures.gif"
+    ],
+    "keywords": [
+        "edit",
+        "feature",
+        "online service",
+        "Feature",
+        "FeatureEditResult",
+        "FeatureLayer",
+        "ServiceFeatureTable"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/add-features.htm"
+    ],
+    "relevant_apis": [
+        "Feature",
+        "FeatureEditResult",
+        "FeatureLayer",
+        "ServiceFeatureTable"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/add_features/AddFeaturesSample.java"
+    ],
+    "title": "Add features"
+}

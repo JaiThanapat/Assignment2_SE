@@ -1,0 +1,43 @@
+{
+    "category": "Scene",
+    "description": "Show various kinds of 3D symbols in a scene.",
+    "ignore": false,
+    "images": [
+        "Symbols.png"
+    ],
+    "keywords": [
+        "3D",
+        "cone",
+        "cube",
+        "cylinder",
+        "diamond",
+        "geometry",
+        "pyramid",
+        "scene",
+        "shape",
+        "sphere",
+        "symbol",
+        "tetrahedron",
+        "tube",
+        "visualization",
+        "Graphic",
+        "GraphicsOverlay",
+        "SceneSymbol.AnchorPosition",
+        "SimpleMarkerSceneSymbol",
+        "SimpleMarkerSceneSymbol.Style"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/symbols.htm"
+    ],
+    "relevant_apis": [
+        "Graphic",
+        "GraphicsOverlay",
+        "SceneSymbol.AnchorPosition",
+        "SimpleMarkerSceneSymbol",
+        "SimpleMarkerSceneSymbol.Style"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/symbols/SymbolsSample.java"
+    ],
+    "title": "Symbols"
+}

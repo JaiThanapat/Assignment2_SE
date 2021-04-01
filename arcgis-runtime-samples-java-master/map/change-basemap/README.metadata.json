@@ -1,0 +1,27 @@
+{
+    "category": "Map",
+    "description": "Change a map's basemap. A basemap is beneath all layers on an `ArcGISMap` and is used to provide visual reference for the operational layers.",
+    "ignore": false,
+    "images": [
+        "ChangeBasemap.png"
+    ],
+    "keywords": [
+        "basemap",
+        "map",
+        "ArcGISMap",
+        "BasemapStyle",
+        "MapView"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/change-basemap.htm"
+    ],
+    "relevant_apis": [
+        "ArcGISMap",
+        "BasemapStyle",
+        "MapView"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/change_basemap/ChangeBasemapSample.java"
+    ],
+    "title": "Change basemap"
+}

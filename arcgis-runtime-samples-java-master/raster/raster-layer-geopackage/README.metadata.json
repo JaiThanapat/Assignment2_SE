@@ -1,0 +1,34 @@
+{
+    "category": "Raster",
+    "description": "Display a raster contained in a GeoPackage.",
+    "ignore": false,
+    "images": [
+        "RasterLayerGeopackage.png"
+    ],
+    "keywords": [
+        "OGC",
+        "container",
+        "data",
+        "image",
+        "import",
+        "layer",
+        "package",
+        "raster",
+        "visualization",
+        "GeoPackage",
+        "GeoPackageRaster",
+        "RasterLayer"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/raster-layer-geopackage.htm"
+    ],
+    "relevant_apis": [
+        "GeoPackage",
+        "GeoPackageRaster",
+        "RasterLayer"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/raster_layer_geopackage/RasterLayerGeopackageSample.java"
+    ],
+    "title": "Raster layer (GeoPackage)"
+}

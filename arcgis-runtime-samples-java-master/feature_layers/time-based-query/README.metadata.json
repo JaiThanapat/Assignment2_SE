@@ -1,0 +1,28 @@
+{
+    "category": "Feature layers",
+    "description": "Query data using a time extent.",
+    "ignore": false,
+    "images": [
+        "TimeBasedQuery.png"
+    ],
+    "keywords": [
+        "query",
+        "time",
+        "time extent",
+        "QueryParameters",
+        "ServiceFeatureTable",
+        "TimeExtent"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/time-based-query.htm"
+    ],
+    "relevant_apis": [
+        "QueryParameters",
+        "ServiceFeatureTable",
+        "TimeExtent"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/time_based_query/TimeBasedQuerySample.java"
+    ],
+    "title": "Time-based query"
+}

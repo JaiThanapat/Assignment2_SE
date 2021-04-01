@@ -1,0 +1,39 @@
+{
+    "category": "Geometry",
+    "description": "A multipart geometry can be densified by adding interpolated points at regular intervals. Generalizing multipart geometry simplifies it while preserving its general shape. Densifying a multipart geometry adds more vertices at regular intervals.",
+    "ignore": false,
+    "images": [
+        "DensifyAndGeneralize.gif"
+    ],
+    "keywords": [
+        "Edit and Manage Data",
+        "densify",
+        "generalize",
+        "simplify",
+        "GeometryEngine",
+        "Multipoint",
+        "Point",
+        "PointCollection",
+        "Polyline",
+        "SimpleLineSymbol",
+        "SpatialReference"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/densify-and-generalize.htm"
+    ],
+    "relevant_apis": [
+        "GeometryEngine",
+        "Multipoint",
+        "Point",
+        "PointCollection",
+        "Polyline",
+        "SimpleLineSymbol",
+        "SpatialReference"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/densify_and_generalize/DensifyAndGeneralizeController.java",
+        "src/main/java/com/esri/samples/densify_and_generalize/DensifyAndGeneralizeSample.java",
+        "src/main/resources/densify_and_generalize/main.fxml"
+    ],
+    "title": "Densify and generalize"
+}

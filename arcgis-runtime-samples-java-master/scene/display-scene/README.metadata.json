@@ -1,0 +1,30 @@
+{
+    "category": "Scene",
+    "description": "Display a scene with a terrain surface and some imagery.",
+    "ignore": false,
+    "images": [
+        "DisplayScene.png"
+    ],
+    "keywords": [
+        "3D",
+        "basemap",
+        "elevation",
+        "scene",
+        "surface",
+        "ArcGISScene",
+        "ArcGISTiledElevationSource",
+        "SceneView"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/display-scene.htm"
+    ],
+    "relevant_apis": [
+        "ArcGISScene",
+        "ArcGISTiledElevationSource",
+        "SceneView"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/display_scene/DisplaySceneSample.java"
+    ],
+    "title": "Display scene"
+}

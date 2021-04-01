@@ -1,0 +1,37 @@
+{
+    "category": "Geometry",
+    "description": "Create simple geometry types.",
+    "ignore": false,
+    "images": [
+        "CreateGeometries.png"
+    ],
+    "keywords": [
+        "area",
+        "boundary",
+        "line",
+        "marker",
+        "path",
+        "shape",
+        "Envelope",
+        "Multipoint",
+        "Point",
+        "PointCollection",
+        "Polygon",
+        "Polyline"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/create-geometries.htm"
+    ],
+    "relevant_apis": [
+        "Envelope",
+        "Multipoint",
+        "Point",
+        "PointCollection",
+        "Polygon",
+        "Polyline"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/create_geometries/CreateGeometriesSample.java"
+    ],
+    "title": "Create geometries"
+}

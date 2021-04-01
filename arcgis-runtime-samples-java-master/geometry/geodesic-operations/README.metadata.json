@@ -1,0 +1,25 @@
+{
+    "category": "Geometry",
+    "description": "Calculate a geodesic path between two points and measure its distance.",
+    "ignore": false,
+    "images": [
+        "GeodesicOperations.png"
+    ],
+    "keywords": [
+        "densify",
+        "distance",
+        "geodesic",
+        "geodetic",
+        "GeometryEngine"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/geodesic-operations.htm"
+    ],
+    "relevant_apis": [
+        "GeometryEngine"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/geodesic_operations/GeodesicOperationsSample.java"
+    ],
+    "title": "Geodesic operations"
+}

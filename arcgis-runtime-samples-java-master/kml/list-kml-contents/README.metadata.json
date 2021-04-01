@@ -1,0 +1,44 @@
+{
+    "category": "KML",
+    "description": "List the contents of a KML file.",
+    "ignore": false,
+    "images": [
+        "ListKMLContents.png"
+    ],
+    "keywords": [
+        "KML",
+        "KMZ",
+        "Keyhole",
+        "OGC",
+        "layers",
+        "KmlContainer",
+        "KmlDataset",
+        "KmlDocument",
+        "KmlFolder",
+        "KmlGroundOverlay",
+        "KmlLayer",
+        "KmlNetworkLink",
+        "KmlNode",
+        "KmlPlacemark",
+        "KmlScreenOverlay"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/list-kml-contents.htm"
+    ],
+    "relevant_apis": [
+        "KmlContainer",
+        "KmlDataset",
+        "KmlDocument",
+        "KmlFolder",
+        "KmlGroundOverlay",
+        "KmlLayer",
+        "KmlNetworkLink",
+        "KmlNode",
+        "KmlPlacemark",
+        "KmlScreenOverlay"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/list_kml_contents/ListKMLContentsSample.java"
+    ],
+    "title": "List KML contents"
+}

@@ -1,0 +1,28 @@
+{
+    "category": "Feature layers",
+    "description": "Display features from a local geodatabase.",
+    "ignore": false,
+    "images": [
+        "FeatureLayerGeodatabase.png"
+    ],
+    "keywords": [
+        "geodatabase",
+        "mobile",
+        "offline",
+        "FeatureLayer",
+        "Geodatabase",
+        "GeodatabaseFeatureTable"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/feature-layer-geodatabase-.htm"
+    ],
+    "relevant_apis": [
+        "FeatureLayer",
+        "Geodatabase",
+        "GeodatabaseFeatureTable"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/feature_layer_geodatabase/FeatureLayerGeodatabaseSample.java"
+    ],
+    "title": "Feature layer (geodatabase)"
+}

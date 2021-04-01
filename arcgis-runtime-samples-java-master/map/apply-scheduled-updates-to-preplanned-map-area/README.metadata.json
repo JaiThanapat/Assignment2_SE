@@ -1,0 +1,34 @@
+{
+    "category": "Map",
+    "description": "Apply scheduled updates to a downloaded preplanned map area.",
+    "ignore": false,
+    "images": [
+        "ApplyScheduledUpdatesToPreplannedMapArea.png"
+    ],
+    "keywords": [
+        "offline",
+        "pre-planned",
+        "preplanned",
+        "synchronize",
+        "update",
+        "MobileMapPackage",
+        "OfflineMapSyncJob",
+        "OfflineMapSyncParameters",
+        "OfflineMapSyncResult",
+        "OfflineMapSyncTask",
+        "OfflineMapUpdatesInfo"
+    ],
+    "redirect_from": "",
+    "relevant_apis": [
+        "MobileMapPackage",
+        "OfflineMapSyncJob",
+        "OfflineMapSyncParameters",
+        "OfflineMapSyncResult",
+        "OfflineMapSyncTask",
+        "OfflineMapUpdatesInfo"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/apply_scheduled_updates_to_preplanned_map_area/ApplyScheduledUpdatesToPreplannedMapAreaSample.java"
+    ],
+    "title": "Apply scheduled updates to preplanned map area"
+}

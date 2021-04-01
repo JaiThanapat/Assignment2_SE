@@ -1,0 +1,26 @@
+{
+    "category": "Feature layers",
+    "description": "Convert features into graphics to show them with mil2525d symbols.",
+    "ignore": false,
+    "images": [
+        "FeatureLayerDictionaryRenderer.png"
+    ],
+    "keywords": [
+        "dictionary",
+        "military",
+        "symbol",
+        "DictionaryRenderer",
+        "DictionarySymbolStyle"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/dictionary-renderer-with-feature-layer.htm"
+    ],
+    "relevant_apis": [
+        "DictionaryRenderer",
+        "DictionarySymbolStyle"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/feature_layer_dictionary_renderer/FeatureLayerDictionaryRendererSample.java"
+    ],
+    "title": "Dictionary renderer with feature layer"
+}

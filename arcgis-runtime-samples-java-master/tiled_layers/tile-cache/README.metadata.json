@@ -1,0 +1,31 @@
+{
+    "category": "Tiled layers",
+    "description": "Load an offline copy of a tiled map service as a basemap.",
+    "ignore": false,
+    "images": [
+        "TileCache.png"
+    ],
+    "keywords": [
+        "cache",
+        "layers",
+        "offline",
+        "tile",
+        "ArcGISMap",
+        "ArcGISTiledLayer",
+        "Basemap",
+        "TileCache"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/tile-cache.htm"
+    ],
+    "relevant_apis": [
+        "ArcGISMap",
+        "ArcGISTiledLayer",
+        "Basemap",
+        "TileCache"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/tile_cache/TileCacheSample.java"
+    ],
+    "title": "Tile cache"
+}

@@ -1,0 +1,29 @@
+{
+    "category": "Map",
+    "description": "Access and create bookmarks on a map.",
+    "ignore": false,
+    "images": [
+        "ManageBookmarks.png"
+    ],
+    "keywords": [
+        "bookmark",
+        "extent",
+        "location",
+        "zoom",
+        "Bookmark",
+        "BookmarkList",
+        "Viewpoint"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/manage-bookmarks.htm"
+    ],
+    "relevant_apis": [
+        "Bookmark",
+        "BookmarkList",
+        "Viewpoint"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/manage_bookmarks/ManageBookmarksSample.java"
+    ],
+    "title": "Manage bookmarks"
+}

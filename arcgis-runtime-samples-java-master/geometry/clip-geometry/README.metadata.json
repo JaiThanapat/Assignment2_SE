@@ -1,0 +1,32 @@
+{
+    "category": "Geometry",
+    "description": "Clip a geometry with another geometry.",
+    "ignore": false,
+    "images": [
+        "ClipGeometry.png"
+    ],
+    "keywords": [
+        "analysis",
+        "clip",
+        "geometry",
+        "Envelope",
+        "Geometry",
+        "GeometryEngine",
+        "Graphic",
+        "GraphicsOverlay"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/clip-geometry.htm"
+    ],
+    "relevant_apis": [
+        "Envelope",
+        "Geometry",
+        "GeometryEngine",
+        "Graphic",
+        "GraphicsOverlay"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/clip_geometry/ClipGeometrySample.java"
+    ],
+    "title": "Clip geometry"
+}

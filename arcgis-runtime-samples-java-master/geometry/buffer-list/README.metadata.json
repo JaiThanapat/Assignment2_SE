@@ -1,0 +1,27 @@
+{
+    "category": "Geometry",
+    "description": "Generate multiple individual buffers or a single unioned buffer around multiple points.",
+    "ignore": false,
+    "images": [
+        "BufferList.png"
+    ],
+    "keywords": [
+        "analysis",
+        "buffer",
+        "geometry",
+        "planar",
+        "GeometryEngine",
+        "SpatialReference"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/buffer-list.htm"
+    ],
+    "relevant_apis": [
+        "GeometryEngine",
+        "SpatialReference"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/buffer_list/BufferListSample.java"
+    ],
+    "title": "Buffer list"
+}

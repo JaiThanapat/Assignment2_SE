@@ -1,0 +1,35 @@
+{
+    "category": "Symbology",
+    "description": "Display common symbols for all graphics in a graphics overlay with a renderer.",
+    "ignore": false,
+    "images": [
+        "SimpleRenderer.png"
+    ],
+    "keywords": [
+        "graphics",
+        "marker",
+        "renderer",
+        "symbol",
+        "symbolize",
+        "symbology",
+        "Graphic",
+        "GraphicsOverlay",
+        "Point",
+        "SimpleMarkerSymbol",
+        "SimpleRenderer"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/simple-renderer.htm"
+    ],
+    "relevant_apis": [
+        "Graphic",
+        "GraphicsOverlay",
+        "Point",
+        "SimpleMarkerSymbol",
+        "SimpleRenderer"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/simple_renderer/SimpleRendererSample.java"
+    ],
+    "title": "Simple renderer"
+}

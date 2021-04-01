@@ -1,0 +1,36 @@
+{
+    "category": "Symbology",
+    "description": "Render features in a layer using a distinct symbol for each unique attribute value.",
+    "ignore": false,
+    "images": [
+        "UniqueValueRenderer.png"
+    ],
+    "keywords": [
+        "draw",
+        "renderer",
+        "symbol",
+        "symbology",
+        "values",
+        "FeatureLayer",
+        "ServiceFeatureTable",
+        "SimpleFillSymbol",
+        "SimpleLineSymbol",
+        "UniqueValue",
+        "UniqueValueRenderer"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/unique-value-renderer.htm"
+    ],
+    "relevant_apis": [
+        "FeatureLayer",
+        "ServiceFeatureTable",
+        "SimpleFillSymbol",
+        "SimpleLineSymbol",
+        "UniqueValue",
+        "UniqueValueRenderer"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/unique_value_renderer/UniqueValueRendererSample.java"
+    ],
+    "title": "Unique value renderer"
+}

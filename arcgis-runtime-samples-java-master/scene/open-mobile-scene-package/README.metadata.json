@@ -1,0 +1,25 @@
+{
+    "category": "Scene",
+    "description": "Opens and displays a scene from a mobile scene package (.mspk).",
+    "ignore": false,
+    "images": [
+        "OpenMobileScenePackage.png"
+    ],
+    "keywords": [
+        "offline",
+        "scene",
+        "MobileScenePackage",
+        "SceneView"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/open-mobile-scene-package.htm"
+    ],
+    "relevant_apis": [
+        "MobileScenePackage",
+        "SceneView"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/open_mobile_scene_package/OpenMobileScenePackageSample.java"
+    ],
+    "title": "Open mobile scene package"
+}

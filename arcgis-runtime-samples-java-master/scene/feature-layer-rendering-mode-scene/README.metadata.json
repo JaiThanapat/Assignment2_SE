@@ -1,0 +1,35 @@
+{
+    "category": "Scene",
+    "description": "Render features in a scene statically or dynamically by setting the feature layer rendering mode.",
+    "ignore": false,
+    "images": [
+        "FeatureLayerRenderingModeScene.gif"
+    ],
+    "keywords": [
+        "3D",
+        "dynamic",
+        "feature layer",
+        "features",
+        "rendering",
+        "static",
+        "ArcGISScene",
+        "FeatureLayer",
+        "FeatureLayer.RenderingMode",
+        "LoadSettings",
+        "SceneView"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/feature-layer-rendering-mode-scene.htm"
+    ],
+    "relevant_apis": [
+        "ArcGISScene",
+        "FeatureLayer",
+        "FeatureLayer.RenderingMode",
+        "LoadSettings",
+        "SceneView"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/feature_layer_rendering_mode_scene/FeatureLayerRenderingModeSceneSample.java"
+    ],
+    "title": "Feature layer rendering mode (Scene)"
+}

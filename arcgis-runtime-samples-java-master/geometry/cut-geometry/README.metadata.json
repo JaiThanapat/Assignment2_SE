@@ -1,0 +1,28 @@
+{
+    "category": "Geometry",
+    "description": "Cut a geometry along a polyline.",
+    "ignore": false,
+    "images": [
+        "CutGeometry.png"
+    ],
+    "keywords": [
+        "cut",
+        "geometry",
+        "split",
+        "GeometryEngine",
+        "Polygon",
+        "Polyline"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/cut-geometry.htm"
+    ],
+    "relevant_apis": [
+        "GeometryEngine",
+        "Polygon",
+        "Polyline"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/cut_geometry/CutGeometrySample.java"
+    ],
+    "title": "Cut geometry"
+}

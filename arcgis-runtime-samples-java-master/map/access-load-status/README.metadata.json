@@ -1,0 +1,26 @@
+{
+    "category": "Map",
+    "description": "Determine the map's load status which can be: `NOT_LOADED`, `FAILED_TO_LOAD`, `LOADING`, `LOADED`.",
+    "ignore": false,
+    "images": [
+        "AccessLoadStatus.png"
+    ],
+    "keywords": [
+        "LoadStatus",
+        "loadable pattern",
+        "map",
+        "ArcGISMap",
+        "MapView"
+    ],
+    "redirect_from": [
+        "/java/latest/sample-code/access-load-status.htm"
+    ],
+    "relevant_apis": [
+        "ArcGISMap",
+        "MapView"
+    ],
+    "snippets": [
+        "src/main/java/com/esri/samples/access_load_status/AccessLoadStatusSample.java"
+    ],
+    "title": "Access load status"
+}
